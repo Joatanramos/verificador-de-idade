@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 header {
     color: white;
     text-align: center;
@@ -14,8 +19,8 @@ header h1 {
     margin-bottom: 40px;
     margin-top: 30px;
 }
-body {
-    background-color: rgba(30, 107, 194, 0.712);
+HTML, body {
+    background-image: linear-gradient(to bottom, #1e6bc2b6, #1e6bc24f, #1e6bc279);
     font: normal 15pt arial;
 }
 
@@ -30,6 +35,7 @@ section {
 }
 p {
     text-align: center;
+    margin-top: 10px;
 }
 input#butao {
     font-size: .9em;
@@ -38,6 +44,7 @@ input#butao {
     color: black;
     border-radius: 5px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.329);
+    margin: 15px;
 }
 input#butao:hover {
     background-color: black;
@@ -48,4 +55,5 @@ footer {
     color: white;
     text-align: center;
     font-style: italic;
+    margin-top: 20px;
 }
